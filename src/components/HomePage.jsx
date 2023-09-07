@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import {Container,Row,Col,} from 'react-bootstrap'
 import {personalLoan,businessLoan,debt,health,bannerImage1,credBrand} from '../assets/index'
-import {HomePageSection3} from '../components/index'
+import {HomePageSection3,HomePageSection4} from '../components/index'
 /**-*-------------------------------------------------------- */
   const ContainerStyle={
      padding:"10px 20px",
@@ -150,6 +150,7 @@ const HomePage = () => {
          </div>
        </div>
        <HomePageSection3/>
+       <HomePageSection4/>
     </Fragment>
   )
 }
